@@ -1,3 +1,3 @@
-let count = 0
+let count = 12
 
 console.log(count)
