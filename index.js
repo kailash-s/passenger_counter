@@ -1,19 +1,8 @@
-// Incrementing and decrementing
-let count = 5
-count = count + 2
-count = count + 10
-count = count - 2
-console.log(count)
+// initialise the count as 0
+// listen for clicks on the increment button
+// incremement the count variable when the button is clicked
+// change the count-el in the html to reflect the new count
 
-// For example
-let bonusPoints = 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 45
-console.log(bonusPoints)
+function increment() {
+    console.log("The button was clicked")
+}
