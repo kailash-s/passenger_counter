@@ -1,4 +1,3 @@
-let firstBatch = 5
-// let secondBatch = 7
-// let count = firstBatch + secondBatch
-// console.log(count)
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
