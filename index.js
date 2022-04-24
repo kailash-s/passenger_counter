@@ -4,22 +4,10 @@ console.log(countEl)
 // initialise the count as 0
 let count = 0
 // listen for clicks on the increment button
+// incremement the count variable when the button is clicked
+// change the count-el in the html to reflect the new count
 function increment() {
     count = count + 1
     countEl.innerText = count
+    console.log(count)
 }
-// incremement the count variable when the button is clicked
-// change the count-el in the html to reflect the new count
-
-
-// let lapsCompleted = 0
-
-// function totalLaps() {
-//     lapsCompleted = lapsCompleted + 1
-// }
-
-// totalLaps()
-// totalLaps()
-// totalLaps()
-
-// console.log(lapsCompleted)
