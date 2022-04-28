@@ -1,20 +1,13 @@
-let countEl = document.getElementById("count-el")
-// console.log(countEl)
+// Grab the welcome-el paragraph and store it in a variable called welcomeEl
 
-// initialise the count as 0
-let count = 0
-// listen for clicks on the increment button
-// incremement the count variable when the button is clicked
-// change the count-el in the html to reflect the new count
-function increment() {
-    count = count + 1
-    countEl.innerText = count
-    // console.log(count)
-}
+let welcomeEl = document.getElementById("welcome-el")
 
-// Create a function, save(), which logs out the count when it's called
-let saveEl = document.getElementById("save-btn")
+// Create two variables (name & greeting) that contains your name
+// and the greeting we want to render on the page
 
-function save() {
-    console.log(count)
-}
+let myName = "Fred"
+let greeting = "Welcome! "
+
+// Render the welcome message using welcomeEl.innerText
+
+welcomeEl.innerText = greeting + myName
