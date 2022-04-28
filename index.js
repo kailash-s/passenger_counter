@@ -5,10 +5,12 @@ let saveEl = document.getElementById("save-el")
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
 }
 
 function save() {
-    let pastEntries = " " + count + " - "
-    saveEl.innerText += pastEntries
+    let pastEntries = count + " - "
+    saveEl.textContent += pastEntries
+    countEl.textContent = 0
+    count = 0
 }
